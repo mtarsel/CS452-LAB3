@@ -12,3 +12,7 @@ Use W,A,S,D to translate the object up, left, down, and right respectively.
 Use I,J,K,L to rotate the object up, left, down, and right repsectively.
 
 Use E,Q to scale the object smaller and bigger respectively.
+
+###Compile
+
+g++ lab3.cpp $(pkg-config --cflags --libs sdl2) -lglut -lGLU -lGL -lGLEW
