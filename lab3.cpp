@@ -133,7 +133,7 @@ int main(int argc, char **argv){
 
 	//create window
     window = SDL_CreateWindow(
-	"Hollow Pyramid", //Window title
+	"Hollow Tetrahydron", //Window title
 	SDL_WINDOWPOS_UNDEFINED, //initial x position
 	SDL_WINDOWPOS_UNDEFINED, //initial y position
 	500,							//width, in pixels
