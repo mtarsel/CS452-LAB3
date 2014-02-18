@@ -15,4 +15,10 @@ Use E,Q to scale the object smaller and bigger respectively.
 
 ###Compile
 
+```bash
+make
+```
+or
+```bash
 g++ lab3.cpp $(pkg-config --cflags --libs sdl2) -lglut -lGLU -lGL -lGLEW
+```
